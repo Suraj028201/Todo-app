@@ -1,0 +1,18 @@
+.profile-todo-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 767px) {
+    /* CSS rules for screens up to 767px wide (typical for mobile devices) */
+    /* Example: */
+    .profile-todo-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+  }
+  
